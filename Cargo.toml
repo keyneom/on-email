@@ -13,6 +13,9 @@ Call arbitrary programs upon receipt.
 # These URLs point to more information about the package. These are
 # intended to be webviews of the relevant data, not necessarily compatible
 # with VCS tools and the like.
+documentation = "https://github.com/keyneom/on-email"
+homepage = "https://github.com/keyneom/on-email"
+repository = "https://github.com/keyneom/on-email"
 
 # Maintenance: `status` is required. Available options are:
 # - `actively-developed`: New features are being added and bugs are being fixed.
