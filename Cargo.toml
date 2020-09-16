@@ -9,6 +9,7 @@ Email event handler.
 Subscribe to an email type for an email account.
 Call arbitrary programs upon receipt.
 """
+edition = "2018"
 
 # These URLs point to more information about the package. These are
 # intended to be webviews of the relevant data, not necessarily compatible
@@ -47,3 +48,8 @@ categories = ["command-line-utilities", "email"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+imap = "2.3.*"
+clap = "3.0.0-beta.1"
+native-tls = "0.2.*"
+serde = { version = "1.0.*", features = ["derive"] }
+serde_json = "1.0.*"
